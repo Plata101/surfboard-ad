@@ -8,9 +8,14 @@ defineProps({
 </script>
 
 <template>
-  <a href="https://tincan.ch/digital" target="_blank" rel="noopener noreferrer">
+  <a
+    href="https://tincan.ch/digital"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="cursor-pointer"
+  >
     <div
-      class="cursor-pointer w-[300px] max-w-full h-auto bg-white shadow-2xl pt-6 hover:scale-105 hover:-translate-y-2 transition-all duration-500"
+      class="w-[300px] max-w-full h-auto bg-white shadow-2xl pt-6 hover:scale-105 hover:-translate-y-2 transition-all duration-500"
     >
       <p class="text-xl text-center font-semibold font-open-sans">
         {{ title }}
@@ -22,7 +27,9 @@ defineProps({
           class="w-full h-full object-contain"
         />
       </figure>
-      <button class="text-center text-white bg-[#FEA300] py-2 text-lg w-full">
+      <button
+        class="text-center text-white bg-[#FEA300] py-2 text-lg w-full cursor-pointer"
+      >
         {{ buttonText }}
       </button>
     </div>

@@ -4,8 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(), // Handles Vue components
-    tailwindcss(), // Handles Tailwind CSS processing
-  ],
+  base: "/surfboard-ad/",
+  plugins: [vue(), tailwindcss()],
 });

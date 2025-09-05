@@ -5,7 +5,7 @@ import AdRect from "./components/AdRect.vue";
 <template>
   <AdRect
     title="Surfboard BLU-RX4"
-    imageSrc="/src/assets/surfboard.jpg"
+    imageSrc="./assets/surfboard.jpg"
     imageAlt="Surfboard"
     buttonText="jetzt gewinnen!"
   />
