@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap location (update this when you have a sitemap)
+# Sitemap: https://marcfriedmann.dev/surfboard-ad/sitemap.xmlH
+
+# Crawl delay (optional - helps prevent overloading your server)
+Crawl-delay: 1
+
+# Disallow specific paths if needed (examples)
+# Disallow: /admin/
+# Disallow: /private/
